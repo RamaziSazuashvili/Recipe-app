@@ -11,28 +11,98 @@ html,
 body {
     background-color: hsl(0, 0%, 100%);
     min-width: 375px;
-}
-
-body {
-    width:20px;
+    height:1600px;
 }
 
 .img {
     width: 375px;
 }
 
-.textcontainer {
+.text-container {
     padding:30px;
 }
 
-.description, .list {
-    font-size: 12px;
-    font-family: "Merienda", cursive;
+.title {
+    font-size:36px;
+    padding-bottom:10px;
+}
+
+.title2 {
+    font-size:20px;
+    color:#7A284E;
+    padding-bottom:10px;
+}
+
+.title3 {
+    font-size:28px;
+    color: #854632;
+    padding-top: 15px;
+    padding-bottom: 20px;
+}
+
+#sec3 {
+    line-height: 22px;
+}
+
+.title4 {
+    padding-top: 5px;
+    padding-bottom: 10px;
+    font-size:28px;
+    color:#854632;
+}
+
+.title5 {
+    color:#854632;
+    font-size:28px;
+    padding-top:10px;
+    padding-bottom:10px;
+}
+
+.p1 {
+    padding-bottom:10px;
     line-height:20px;
 }
 
-.list {
+.pgroup {
+    padding-top:10px;
     padding-left:20px;
+    padding-bottom:10px;
+}
+
+span {
+    color:#854632;
+}
+
+.span1 {
+    padding-left:120px;
+}
+
+.span2 {
+    padding-left:132px;
+}
+
+.span3 {
+    padding-left:120px;
+}
+
+.span4 {
+    padding-left:142px;
+}
+
+.description, .list {
+    font-size: 14px;
+    padding-bottom:20px;
+}
+
+.box {
+    background-color:#FFF7FB;
+    padding-left:15px;
+    border-radius:10px;
+    line-height:30px;
+}
+
+.list {
+    padding-left:5px;
 }
 
 ul {
@@ -41,9 +111,13 @@ ul {
 
 ul li::before {
     content: '•';
-    color: brown;
-    margin-right: 0.5em;
-    font-size: 30px;
+    color: #7A284E;
+    margin-right: 2em;
+    font-size: 14px;
+}
+
+ol li::marker {
+    color: #854632;
 }
 
 .courgette-regular {

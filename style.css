@@ -63,7 +63,7 @@ body {
     line-height:20px;
 }
 
-.pgroup {
+.div-group {
     padding-top:10px;
     padding-left:20px;
     padding-bottom:10px;
@@ -112,7 +112,7 @@ ul {
 ul li::before {
     content: '•';
     color: #7A284E;
-    margin-right: 2em;
+    margin-right: 1em;
     font-size: 14px;
 }
 
@@ -133,3 +133,152 @@ ol li::marker {
     font-style: normal;
 }
 
+@media (min-width:1440px) {
+
+    html,
+    body {
+        background-color: hsl(30, 54%, 90%);
+        min-width: 1440px;
+        padding: 40px;
+    }
+
+    body {
+        border: 1px solid white;
+        background-color: hsl(0, 0%, 100%);
+        border-radius: 15px;
+        margin-top: 40px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 40px;
+        padding: 60px;
+        width: 600px;
+        height: 2220px;
+    }
+
+    .img {
+        width: fit-content;
+        display: flex;
+        border-radius: 15px;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+        border: 3px solid transparent;
+    }
+
+    .img:hover {
+        transition: 0.2s all;
+        border: 3px solid black;
+    }
+
+    .title {
+        font-size: 80px;
+        font-weight: 400px;
+        line-height: 120px;
+    }
+
+    .description {
+        font-size: 20px;
+        font-family: "Merienda", cursive;
+    }
+
+    .title2 {
+        color: #7A284E;
+        font-size: 40px;
+        font-weight: 400px;
+        line-height: 60px;
+    }
+
+    .title3 {
+        font-size: 50px;
+        color: #854632;
+        padding-top: 25px;
+        padding-bottom: 30px;
+    }
+    
+    #sec3 {
+        line-height: 36px;
+    }
+    
+    .title4 {
+        padding-top: 5px;
+        padding-bottom: 10px;
+        font-size: 50px;
+        color: #854632;
+    }
+    
+    .title5 {
+        color: #854632;
+        font-size: 50px;
+        padding-top: 10px;
+        padding-bottom: 15px;
+    }
+    
+    .p1 {
+        padding-bottom: 15px;
+        line-height: 20px;
+    }
+    
+    .div-group {
+        padding-top: 10px;
+        padding-left: 20px;
+        padding-bottom: 10px;
+    }
+    
+    span {
+        color: #854632;
+    }
+    
+    .span1 {
+        padding-left: 330px;
+    }
+    
+    .span2 {
+        padding-left: 350px;
+    }
+    
+    .span3 {
+        padding-left: 332px;
+    }
+    
+    .span4 {
+        padding-left: 365px;
+    }
+
+    .list {
+        padding-left: 16px;
+        font-size: 16px;
+    }
+    .box {
+        line-height:36px;
+    }
+
+    ul {
+        list-style: none;
+    }
+
+    ul li::before {
+        content: '•';
+        color: brown;
+        margin-right: 2em;
+        font-size: 20px;
+    }
+        
+    ol li::marker {
+        color: #854632;
+        font-size:20px;
+    }
+
+    .courgette-regular {
+        font-family: "Courgette", cursive;
+        font-weight: 400;
+        font-style: normal;
+    }
+    
+    .merienda-uniquifier {
+        font-family: "Merienda", cursive;
+        font-optical-sizing: auto;
+        font-weight: 400;
+        font-style: normal;
+    }
+
+}

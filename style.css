@@ -27,10 +27,20 @@ body {
     padding-bottom:10px;
 }
 
+.title:hover {
+    transition: 0.5s color;
+    color: orange;
+}
+
 .title2 {
     font-size:20px;
     color:#7A284E;
     padding-bottom:10px;
+}
+
+.title2:hover {
+    transition: 0.5s color;
+    color: orange;
 }
 
 .title3 {
@@ -38,6 +48,11 @@ body {
     color: #854632;
     padding-top: 15px;
     padding-bottom: 20px;
+}
+
+.title3:hover {
+    transition: 0.5s color;
+    color: orange;
 }
 
 #sec3 {
@@ -51,11 +66,21 @@ body {
     color:#854632;
 }
 
+.title4:hover {
+    transition: 0.5s color;
+    color: orange;
+}
+
 .title5 {
     color:#854632;
     font-size:28px;
     padding-top:10px;
     padding-bottom:10px;
+}
+
+.title5:hover {
+    transition: 0.5s color;
+    color: orange;
 }
 
 .p1 {
@@ -145,6 +170,7 @@ ol li::marker {
     body {
         border: 1px solid white;
         background-color: hsl(0, 0%, 100%);
+        border:3px solid orange;
         border-radius: 15px;
         margin-top: 40px;
         margin-left: auto;
@@ -152,7 +178,7 @@ ol li::marker {
         margin-bottom: 40px;
         padding: 60px;
         width: 600px;
-        height: 2220px;
+        height: 2320px;
     }
 
     .img {
@@ -166,14 +192,19 @@ ol li::marker {
     }
 
     .img:hover {
-        transition: 0.2s all;
-        border: 3px solid black;
+        transition: 0.5s all;
+        border: 3px solid orange;
     }
 
     .title {
         font-size: 80px;
         font-weight: 400px;
         line-height: 120px;
+    }
+
+    .title:hover {
+        transition: 0.5s color;
+        color: orange;
     }
 
     .description {
@@ -188,11 +219,21 @@ ol li::marker {
         line-height: 60px;
     }
 
+    .title2:hover {
+        transition: 0.5s color;
+        color: orange;
+    }
+
     .title3 {
         font-size: 50px;
         color: #854632;
         padding-top: 25px;
         padding-bottom: 30px;
+    }
+
+    .title3:hover {
+        transition: 0.5s color;
+        color: orange;
     }
     
     #sec3 {
@@ -205,12 +246,22 @@ ol li::marker {
         font-size: 50px;
         color: #854632;
     }
+
+    .title4:hover {
+        transition: 0.5s color;
+        color: orange;
+    }
     
     .title5 {
         color: #854632;
         font-size: 50px;
         padding-top: 10px;
         padding-bottom: 15px;
+    }
+
+    .title5:hover {
+        transition: 0.5s color;
+        color: orange;
     }
     
     .p1 {
@@ -246,7 +297,7 @@ ol li::marker {
 
     .list {
         padding-left: 16px;
-        font-size: 16px;
+        font-size: 20px;
     }
     .box {
         line-height:36px;
